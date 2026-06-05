@@ -4,5 +4,11 @@
       "source": "/telesales/latest.json",
       "headers": [{ "key": "Cache-Control", "value": "public, max-age=60, must-revalidate" }]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/telesales/download",
+      "destination": "/api/telesales/download"
+    }
   ]
 }
