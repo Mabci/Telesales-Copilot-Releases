@@ -1,7 +1,6 @@
 export const config = { runtime: "edge" };
 
-const MANIFEST =
-  "https://raw.githubusercontent.com/Mabci/Telesales-Copilot-Releases/main/telesales/latest.json";
+const MANIFEST = "https://mariobenavides.com/telesales/latest.json";
 
 export default async function handler() {
   const res = await fetch(MANIFEST, { cache: "no-store" });
