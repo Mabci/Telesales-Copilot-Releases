@@ -1,0 +1,8 @@
+{
+  "version": "0.7.0",
+  "url": "https://github.com/Mabci/Telesales-Copilot-Releases/releases/download/v0.7.0/TelesalesCopilot-0.7.0.msi",
+  "sha256": "2924b9ac91222c796af775a4cd79f0ce3fe68d3dced249990dda1f02871caba6",
+  "mandatory": false,
+  "notes": "Primera beta con autoupdater. Instalación por usuario (sin administrador).",
+  "publishedAt": "2026-06-05"
+}
